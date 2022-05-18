@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 import { useEffect, useState } from "react";
 import RidePanel from "./RidePanel";
-import { carList } from "./carList";
+import { carList } from "../../public/carList";
 import uuid from 'react-uuid';
 const RideBoard = ({time,chooseCar}) => {
     const [cost,setCost] = useState();

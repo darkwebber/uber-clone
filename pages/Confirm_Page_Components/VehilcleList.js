@@ -1,6 +1,5 @@
 import tw from "tailwind-styled-components";
 import RideBoard from "./RideBoard";
-import mapboxgl from "mapbox-gl";
 import axios from "axios";
 import { useState ,useEffect} from "react";
 const VehicleList = ({start,end,chosenCar})=>{
