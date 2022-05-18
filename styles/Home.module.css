@@ -1,7 +1,18 @@
 .container {
   padding: 0 2rem;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  height: 100vh
 }
-
+.map{
+  background-color: #0070f3;
+  flex-grow: 1;
+}
+.start{
+  background-color: brown;
+  flex-grow: 1;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
